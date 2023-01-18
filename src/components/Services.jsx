@@ -3,30 +3,30 @@ import React from "react";
 const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
+    
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
+      name: "App Design & Develop",
+      desc: "Swift | Kotlin | React-native",
+      icon: "fas fa-dice-d6",
     },
     {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
+      name: "Web Development",
+      desc: "Angular | React | HTML | CSS | SCSS | TS",
+      icon: "fab fa-connectdevelop",
+    }, {
+      name: "Enterprise Development",
+      desc: "Java | C# | C++ | Python | Azure | Cloud Computing | PowerShell | VBA | Firebase | Unit Testing | OOP | CI/CD",
+      icon: "fas fa-chart-area",
     },
     {
       name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "The focus on problem-solving conveys an essential UI/UX trait: empathy for user needs.",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
+      name: "Software Engineering",
+      desc: "Microservices | Distributed Systems | Frontend | Backend | Full-Stack",
+      icon: "fas fa-palette",
     },
     {
       name: "SEO Marketing",

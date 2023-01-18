@@ -131,7 +131,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-dribbble">
                 <Tooltip text="Dribbble" placement="top">
                   <a
-                    href="http://www.dribbble.com/harnishdesign/"
+                    href="http://www.dribbble.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -142,7 +142,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
-                    href="https://twitter.com/harnishdesign/"
+                    href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -153,7 +153,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/harnishdesign/"
+                    href="http://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

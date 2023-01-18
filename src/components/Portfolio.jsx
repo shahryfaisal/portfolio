@@ -43,13 +43,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND],
     },
     {
-      title: "Project Title 2",
+      title: "ScaleLink",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "A cross platform app that is being used by over 200 truckers to create moving tickets for the company.",
+      client: "United Van Lines Ltd.",
+      technologies: "React-native",
+      industry: "IT",
+      date: "November, 2022",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -66,7 +66,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-2.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.BRAND],
     },
     {
       title: "Project Title 3",
@@ -318,7 +318,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            <span className="text-light">{project.categories}</span>
                           </div>
                         </div>
                       </div>
