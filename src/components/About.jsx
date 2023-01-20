@@ -37,14 +37,12 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
               I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              Hundreds of clients have procured exceptional results while
+              working with me. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+              requirements is my moto. 
             </p>
           </div>
           {/* About me content end */}
@@ -102,7 +100,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>4</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
+                  Years Experience
                 </p>
               </div>
             </div>

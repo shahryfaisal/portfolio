@@ -30,7 +30,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "On-page | Off-page | Technical SEO ",
       icon: "fas fa-bullhorn",
     },
   ];

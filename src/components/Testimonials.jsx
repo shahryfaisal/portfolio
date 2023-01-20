@@ -5,17 +5,17 @@ import Slider from "react-slick";
 const Testimonials = ({ classicHeader, darkTheme }) => {
   const reviews = [
     {
-      name: "Dennis Jacques",
-      position: "User from USA",
-      src: "images/testimonial/client-sm-3.jpg",
-      desc: "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.",
+      name: "Doug Blundon",
+      position: "Director of IT, United Van Lines",
+      src: "images/testimonial/client-sm-3.jpeg",
+      desc: "It's been a pleasure having Shahryar working here. He has integrated himself well with the team, and is well liked and respected among his peers.",
       rating: 5,
     },
     {
       name: "Jay Shah",
       position: "Founder at Icomatic Pvt Ltd",
       src: "images/testimonial/client-sm-1.jpg",
-      desc: "Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.",
+      desc: "Easy to use, reasonably priced simply dummy text of the printing and typesetting industry.",
       rating: 5,
     },
     {
@@ -29,7 +29,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
       name: "Chris Tom",
       position: "User from UK",
       src: "images/testimonial/client-sm-4.jpg",
-      desc: "I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.",
+      desc: "I have used them twice now. Good rates, very efficient service and priced simply Excellent.",
       rating: 5,
     },
   ];
@@ -75,7 +75,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Client Speak
+            Testimonials
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -94,6 +94,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
                     <img
                       className="img-fluid rounded-circle border d-inline-block w-auto"
                       src={value.src}
+                      
                       alt=""
                     />
                     <p className="ms-3 mb-0">
