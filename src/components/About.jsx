@@ -42,7 +42,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
-              requirements is my moto. 
+              requirements is my motto. 
             </p>
           </div>
           {/* About me content end */}
